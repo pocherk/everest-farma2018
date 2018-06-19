@@ -11,16 +11,9 @@
 <body>
 	<div class="container">
 		<div class="ani">
-			<div class="a1"><span><b></b></span></div>
-			<div class="a2"><span><b></b></span></div>
-			<div class="a3"><span><b></b></span></div>
-			<div class="a4"><span><b></b></span></div>
-			<div class="a5"><span><b></b></span></div>
-			<div class="a6"><span><b></b></span></div>
-			<div class="a7"><span><b></b></span></div>
-			<div class="a8"><span><b></b></span></div>
-			<div class="a9"><span><b></b></span></div>
-			<div class="a10"><span><b></b></span></div>
+		    <? for($i=1; $i<11; $i++): ?>
+			<div class="a<?=$i?>"><span><b></b></span></div>
+			<? endfor; ?>
 		</div>
 		<div role="main" class="home">
 			<div>
